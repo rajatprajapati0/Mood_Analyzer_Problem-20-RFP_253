@@ -6,7 +6,13 @@ namespace Mood_Analyzer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome in Mood Analyzer Program ");
+            Mood mood = new Mood();
+            Console.WriteLine("How Are You");
+
+            Console.WriteLine(mood.checkMood(Console.ReadLine()));
+
+
         }
     }
 }
