@@ -21,7 +21,7 @@ namespace Test_Mood_Analayzer
         {
              mood= new Mood();
             string expected = "SAD";
-            var actual=mood.checkMood(expected);
+            var actual=mood.checkMood(moodinput);
             Assert.AreEqual(expected,actual);
         }
     }
